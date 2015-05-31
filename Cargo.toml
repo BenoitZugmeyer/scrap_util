@@ -1,0 +1,23 @@
+[package]
+name = "scrap_util"
+version = "1.0.0"
+authors = ["Benoît Zugmeyer <bzugmeyer@gmail.com>"]
+
+[lib]
+name = "scrap_util"
+
+[dependencies]
+maud = "*"
+maud_macros = "*"
+hyper = "*"
+encoding = "*"
+
+[dependencies.html5ever]
+git = "https://github.com/servo/html5ever/"
+
+[dependencies.html5ever_dom_sink]
+git = "https://github.com/servo/html5ever/"
+path = "dom_sink"
+
+[dependencies.string_cache]
+git = "https://github.com/servo/string-cache"

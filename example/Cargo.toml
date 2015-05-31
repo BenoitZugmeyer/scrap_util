@@ -1,0 +1,8 @@
+[package]
+
+name = "scrap_util_example"
+version = "0.0.0"
+authors = ["Benoît Zugmeyer <bzugmeyer@gmail.com>"]
+
+[dependencies.scrap_util]
+path = ".."
